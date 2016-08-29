@@ -1,0 +1,52 @@
+
+h1 {
+	text-align: center;
+}
+
+@media (min-width: 992px) {
+  .col-lg {
+    float: left;
+    border: 1px solid green;
+    width:33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-mg-1 {
+    float: left;
+    border: 1px solid green;
+    width:50%;
+  }
+  .col-mg-2 {
+    float: left;
+    border: 1px solid green;
+    width:100%;
+  }
+}
+
+
+ selction.container{
+   background-color: grey;
+   position: relative;
+ }
+
+h2 { 
+	width:50px;
+	height: 30px;
+	border: 2px solid black;
+	position: relative;
+	top: 0;
+	right： 0;
+	}
+
+#1 {
+	background-color: pink;
+}
+#2 {
+	background-color: yellow;
+}
+#3 {
+	background-color: green;
+}
+
+
